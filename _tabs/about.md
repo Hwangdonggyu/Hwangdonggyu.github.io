@@ -8,3 +8,4 @@ order: 4
 
 * HUFS CSE 20
 * UMC 4th
+* GDSC 5th
