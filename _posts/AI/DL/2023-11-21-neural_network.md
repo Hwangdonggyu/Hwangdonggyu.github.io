@@ -3,6 +3,7 @@ title: DL 인공신경망
 date: 2023-11-21 01:58:00 +0900
 categories: [AI,DL]
 tags: [AI,DL]
+math: true
 ---
 
 ![](https://velog.velcdn.com/images/acadias12/post/7fe278dd-eda8-449a-8549-1d521e73dafe/image.jpeg)
@@ -13,7 +14,7 @@ tags: [AI,DL]
 
 > 로지스틱 회귀는 주어진 학습 데이터에 대해서 가장 잘 맞는 시그모이드 곡선을 찾아내는 알고리즘이다. 시그모이드 함수는 항상 0~1 사이의 값을 리턴한다.
 
-시그모이드 함수식 : $S(x)=\frac{1}{1+e^-x}$
+시그모이드 함수식 :$S(x)=\frac{1}{1+e^-x}$
 
 ![](https://velog.velcdn.com/images/acadias12/post/2339e7a5-74e4-4f7f-aec9-26a16e813e5f/image.png)
 
