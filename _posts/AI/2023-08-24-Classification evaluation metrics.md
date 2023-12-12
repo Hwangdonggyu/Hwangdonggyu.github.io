@@ -40,15 +40,17 @@ $$
 
 ![](https://velog.velcdn.com/images/acadias12/post/28b4a4f6-c2c9-4728-9430-956ba902f8ca/image.png)
 
-- TN(True Negative) : 실제 값이 True, 예측 값이 Negative (Negative)
-- FP(False Positive) : 실제 값이 False, 예측 값이 Postive (Negative)
-- FN(False Negative) : 실제 값이 False, 예측 값이 Negative (Positive)
-- TP(True Positive) : 실제 값이 True, 예측 값이 Positive (Positive)
+- TN(True Negative) : 실제 값이 True, 예측 값이 Negative(실제 False인 답을 False로 예측 : 정답)
+- FP(False Positive) : 실제 값이 False, 예측 값이 Postive(실제 False인 답을 True로 예측 : 오답)
+- FN(False Negative) : 실제 값이 False, 예측 값이 Negative(실제 True인 답을 False로 예측 : 오답) 
+- TP(True Positive) : 실제 값이 True, 예측 값이 Positive(실제 True인 답을 True로 예측 : 정답)
 
 
 
 
-$$정확도(Accuracy)= \frac{TN\,+\,TP} {TN\,\times\,FP\,+\,FN\,+\,TP}$$
+$$
+정확도(Accuracy)= \frac{TN\,+\,TP} {TN\,+\,FP\,+\,FN\,+\,TP}
+$$
 
 정확도를 오차 행렬 지표를 이용한 식으로 나타내면 위의 식 처럼 나타낼 수 있다.
 
